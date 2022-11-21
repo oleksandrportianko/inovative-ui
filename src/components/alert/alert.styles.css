@@ -1,0 +1,46 @@
+.alert-container {
+    position: absolute;
+    max-width: 400px;
+    min-height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 12px;
+}
+
+.alert-success {
+    background-color: rgb(26, 182, 26);
+}
+
+.alert-error {
+    background-color: rgb(228, 28, 28);
+}
+
+.alert-bottom-right {
+    bottom: 10px;
+    right: 10px;
+}
+
+.alert-top-right {
+    top: 10px;
+    right: 10px;
+}
+
+.alert-bottom-left {
+    bottom: 10px;
+    left: 10px;
+}
+
+.alert-top-left {
+    top: 10px;
+    left: 10px;
+}
+
+.alert-close {
+    color: white;
+    width: 20px;
+    height: 20px;
+}
