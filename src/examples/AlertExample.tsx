@@ -1,8 +1,8 @@
 import { useState } from "react"
 
-import { Alert } from "../../components/alert/alert.component"
+import { Alert } from "../components/alert/Alert"
 
-export const Elements = () => {
+export const AlertExample = () => {
     const [alert, setAlert] = useState<boolean>(true)
 
     const closeAlert = () => {
@@ -11,11 +11,11 @@ export const Elements = () => {
 
     return (
         <div>
-            { alert && ( <Alert close="manually" onClose={closeAlert} variant="success" position="bottom-right">
+            {alert && (<Alert close="manually" onClose={closeAlert} variant="success" position="bottom-right">
                 <div>
                     <span>Test alert text</span>
                 </div>
-            </Alert> )}
+            </Alert>)}
         </div>
     )
 }

@@ -2,7 +2,7 @@ import { FC } from 'react'
 
 import closeSvg from '../../assets/close.svg'
 
-import './alert.styles.css'
+import './Alert.css'
 
 type AlertProps = {
     variant?: 'success' | 'error',
