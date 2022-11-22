@@ -11,7 +11,11 @@ export const Elements = () => {
 
     return (
         <div>
-            { alert && <Alert close="manually" onClose={closeAlert} variant="success" position="bottom-right" content="Text text for text texxt" /> }
+            { alert && ( <Alert close="manually" onClose={closeAlert} variant="success" position="bottom-right">
+                <div>
+                    <span>Test alert text</span>
+                </div>
+            </Alert> )}
         </div>
     )
 }
